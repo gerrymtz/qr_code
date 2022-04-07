@@ -1,0 +1,27 @@
+{
+  "name": "qr_code",
+  "version": "1.0.0",
+  "description": "Challenge QR code",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerrymtz/qr_code.git"
+  },
+  "keywords": [
+    "HTML5",
+    "CSS3",
+    "SASS"
+  ],
+  "author": "Gerardo Martínez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gerrymtz/qr_code/issues"
+  },
+  "homepage": "https://github.com/gerrymtz/qr_code#readme",
+  "devDependencies": {
+    "sass": "^1.50.0"
+  }
+}

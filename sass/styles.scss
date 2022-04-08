@@ -14,7 +14,6 @@ html {
 body {
     @include index.setBody;
     font-family: index.$fontOutfit;
-    height: 100vh;
     background-color: index.$lightGray;
 }
 
@@ -26,6 +25,7 @@ body {
 
     .content {
         height: auto;
+        padding-top: 0.1px;
 
         .content__container {
             display: flex;
@@ -76,37 +76,43 @@ body {
 }
 
 .footer {
-    margin-top: 30px;
 
-    .footer__container {
-        display: flex;
-        justify-content: center;
-        padding: 0;
+    .main {
+        height: auto;
+        padding-top: 0.1px;
 
-        .footer__credits {
-
-            .footer__description {
-                color: index.$darkBlue;
-                font-size: index.$outfit15px;
-                font-weight: index.$outfitW700;
-
-                .footer__link {
-                    color: inherit;
-                    display: inline-block;
-
-                    &:nth-child(1) {
-                        margin-bottom: 10px;
+        .footer__container {
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin-top: 80px;
+    
+            .footer__credits {
+    
+                .footer__description {
+                    color: index.$darkBlue;
+                    font-size: index.$outfit15px;
+                    font-weight: index.$outfitW700;
+    
+                    .footer__link {
+                        color: inherit;
+                        display: inline-block;
+    
+                        &:nth-child(1) {
+                            margin-bottom: 10px;
+                        }
+    
+                        &:hover {
+                            color: index.$grayishBlue;
+                            text-decoration: none;
+                        }
+    
                     }
-
-                    &:hover {
-                        color: index.$grayishBlue;
-                        text-decoration: none;
-                    }
-
+    
                 }
-
+                
             }
-            
+    
         }
 
     }

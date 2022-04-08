@@ -30,6 +30,7 @@ body {
         .content__container {
             display: flex;
             justify-content: space-evenly;
+            margin-top: 20px;
 
             .content__card {
                 width: 280px;
@@ -75,6 +76,7 @@ body {
 }
 
 .footer {
+    margin-top: 30px;
 
     .footer__container {
         display: flex;

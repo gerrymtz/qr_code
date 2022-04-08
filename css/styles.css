@@ -25,7 +25,6 @@ body {
   width: 90%;
   max-width: 1300px;
   margin: 0 auto;
-  padding: 45px 0;
   overflow: hidden;
 }
 
@@ -35,6 +34,7 @@ body {
 .main .content .content__container {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 20px;
 }
 .main .content .content__container .content__card {
   width: 280px;
@@ -70,6 +70,9 @@ body {
   font-size: 15px;
 }
 
+.footer {
+  margin-top: 30px;
+}
 .footer .footer__container {
   display: flex;
   justify-content: center;
